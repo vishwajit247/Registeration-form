@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="register">
+		<div class="form">
+	<div id="main">
+	<div class="h-tag">
+	<h2>REGISTERATION FORM</h2>
+	<br>
+	</div>
+	<div class="login">
+	<table cellspacing="2" align="left" cellpadding="8" border="0">
+	<tr>
+	<td align="left"><i class="bi bi-person"></i></td>
+	<td><input type="text" placeholder="First Name" id="t1" class="tb" /><i class="bi bi-asterisk icon-red"></i></td>
+	</tr>
+	<tr>
+	<td align="left"><i class="bi bi-person-fill"></i></td>
+	<td><input type="text" placeholder="Last Name" id="t0" class="tb" /><i class="bi bi-asterisk icon-red"></i></td>
+	</tr>
+	<tr>
+	<td align="left"><i class="bi bi-envelope-fill"></i></td>
+	<td><input type="text" placeholder="Email-Id" id="t2" class="tb" /><i class="bi bi-asterisk icon-red"></i></td>
+	</tr>
+	<tr>
+	<td align="left"><i class="bi bi-phone"></i></td>
+	<td><input type="number" placeholder="Mobile Number" id="t3" class="tb" /><i class="bi bi-asterisk icon-red"></i></td>
+	</tr>
+	<tr>
+	<td align="left"><i class="bi bi-lock-fill"></i></td>
+	<td><input type="password" placeholder="Password" id="t4" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="left"><i class="bi bi-lock-fill"></i></td>
+	<td><input type="password" placeholder="Confirm Password" id="t5" class="tb" /></td>
+	</tr>
+	<tr>
+		<td align="left"><i class="bi bi-geo-alt-fill"></i></td>
+		<td><input type="text" placeholder="City" id="t6" class="tb" /></td>
+	</tr>
+	<tr>
+		<td align="left"></td>
+		<td><h5>How did you hear about us?</h5><input type="radio">
+			<label for="f">Facebook </label>&nbsp;
+			<input name="hear" id="g" type="radio">
+			<label for="g">Google </label>&nbsp;
+			<input name="hear" id="h" type="radio">
+			<label for="h">Instagram </label>&nbsp;
+			<input name="hear" id="i" type="radio">
+			<label for="i">Others </label>&nbsp;</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+		<input type="checkbox" required="">
+      I agree to the <a style="text-decoration: none;" href="#">terms and conditions</a>
+      <p></p><br>
+	<input type="submit" value="Create Account" class="btn" onclick="registration()" /><i class="bi bi-box-arrow-in-right"></i></td>
+	</tr>
+	</table>
+	</div>
+	</div>
+		</div></div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+	</html>
